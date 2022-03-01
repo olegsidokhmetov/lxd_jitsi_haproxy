@@ -1,3 +1,8 @@
+Start roles
+
+`/etc/ansible/playbooks/init.yaml`
+
+```
 ---
 - hosts: Containers
   gather_facts: yes
@@ -10,3 +15,4 @@
   roles:
     - role: "/etc/ansible/roles/1-pre_jitsi"
     - role: "/etc/ansible/roles/2-Jitsi"
+```
